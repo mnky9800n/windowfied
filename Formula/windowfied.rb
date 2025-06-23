@@ -10,6 +10,6 @@ class Windowfied < Formula
   end
 
   test do
-    system "#{bin}/windowfied", "--help"
+    system "#{bin}/dir", "--help"
   end
 end
