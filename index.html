@@ -161,16 +161,56 @@
                 text-align: center;
             }
         }
+        
+        .github-ribbon {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            z-index: 99;
+            pointer-events: none;
+        }
+        
+        .github-ribbon a {
+            position: absolute;
+            top: 42px;
+            right: -40px;
+            transform: rotate(45deg);
+            width: 200px;
+            padding: 8px 0;
+            background: #000080;
+            background: linear-gradient(90deg, #000080 0%, #0000ff 100%);
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            font-family: 'Courier New', monospace;
+            font-size: 11px;
+            font-weight: bold;
+            border: 1px solid #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            pointer-events: auto;
+            transition: all 0.2s;
+        }
+        
+        .github-ribbon a:hover {
+            background: linear-gradient(90deg, #0000cc 0%, #3333ff 100%);
+            transform: rotate(45deg) scale(1.05);
+        }
     </style>
 </head>
 <body>
+    <div class="github-ribbon">
+        <a href="https://github.com/mnky9800n/homebrew-tools/fork" target="_blank">🍴 FORK ON GITHUB</a>
+    </div>
     <div class="window">
         <div class="title-bar">Windowfied.exe</div>
         
         <h1>WINDOWFIED</h1>
         
         <div class="logo-container">
-            <img src="assets/images/logo.png" alt="Windowfied Logo" width="200" height="120" style="max-width: 100%; height: auto;">
+            <img src="assets/images/logo.png" alt="Windowfied Logo" width="400" height="240" style="max-width: 100%; height: auto;">
         </div>
         
         <div class="explanation">
