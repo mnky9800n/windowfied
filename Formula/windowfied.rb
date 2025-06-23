@@ -1,4 +1,4 @@
-class windowfied < Formula
+class Windowfied < Formula
   desc "Windows-style commands for macOS"
   homepage "https://github.com/mnky9800n/windowfied"
   url "https://github.com/mnky9800n/windowfied/archive/refs/tags/v1.0.0.tar.gz"
