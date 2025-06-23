@@ -2,7 +2,7 @@ class Windowfied < Formula
   desc "Windows-style commands for macOS"
   homepage "https://github.com/mnky9800n/homebrew-tools"
   url "https://github.com/mnky9800n/homebrew-tools/archive/refs/tags/v1.0.2.tar.gz"
-  sha256 "c6e5aaaa3d9fda0adc71dc12e585781d77b84f3f9b6e1ec02c5ab5259f7c74f5"
+  sha256 "a0eafdd9c7eb7f1053e858837e4bafdf5d6e028e67e4adb6a9841808a503a66e"
   license "MIT"
 
   def install
