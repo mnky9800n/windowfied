@@ -1,3 +1,5 @@
+#!/bin/bash
+
 dir() {
   voldev=$(df . | tail -1 | awk '{print $1}')
   vollabel=$(diskutil info "$voldev" 2>/dev/null | awk -F: '/Volume Name/ {print $2}' | sed 's/^ *//')
@@ -32,3 +34,5 @@ dir() {
   avail=$(df . | tail -1 | awk '{print $4 * 512}')
   printf "             %d Dir(s) %d bytes free\n" $total_dirs $avail
 }
+
+dir "$@"
