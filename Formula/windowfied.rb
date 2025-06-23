@@ -6,7 +6,7 @@ class windowfied < Formula
   license "MIT"
 
   def install
-    bin.install "windowfied" => "windowfied"
+    bin.install "dir.sh" => "dir"
   end
 
   test do
